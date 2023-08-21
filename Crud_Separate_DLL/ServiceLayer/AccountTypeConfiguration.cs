@@ -13,7 +13,7 @@ namespace ServiceLayer
     {
         public void Configure(EntityTypeBuilder<AccountType> builder)
         {
-            builder.HasData(GetAccountTypes());
+            builder.HasData(GetAccountTypes());//
 
         }
 
